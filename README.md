@@ -13,9 +13,13 @@ Implementation of color-to-grayscale image conversion algorithms proposed in the
 
 Argument:
 `--intput`: specify the path to the input color image
+
 `--output`: specify the path to the output grayscale image
+
 `--mu`: specify the width (actual width is 2 * mu) of the squared neighborhood pixel patch
+
 `--npi` and `--dpi`: specify  user parameter `theta` by `npi` times `pi` / `dpi`
+
 `--alpha`: specify user parameter `alpha`
 
 
@@ -26,9 +30,13 @@ Argument:
 
 Argument:
 `--intput`: specify the path to the input color image
+
 `--output`: specify the path to the output grayscale image
+
 `--dof`: degree of trigonometric polynomial used, default is 4 as paper suggested
+
 `--alpha`: specify user parameter `alpha`
+
 `--lamb`: specify `lamb` * number of pixels for `E_r` term, where `E_image = E_s + E_r` as paper suggested
 
 

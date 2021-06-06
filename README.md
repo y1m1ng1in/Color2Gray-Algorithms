@@ -12,6 +12,7 @@ Implementation of color-to-grayscale image conversion algorithms proposed in the
 `spcr.py` implements "Color2Gray: Salience-Preserving Color Removal. Amy A. Gooch, Sven C. Olsen, Jack Tumblin, and Bruce Gooch. SIGGRAPH 05"
 
 Argument:
+
 `--intput`: specify the path to the input color image
 
 `--output`: specify the path to the output grayscale image
@@ -29,6 +30,7 @@ Argument:
 `ngm.py` implements "Robust color-to-gray via nonlinear global mapping. Yongjin Kim and Cheolhun Jang and Julien Demouth and Seungyong Lee. SIGGRAPH ASIA 2009"
 
 Argument:
+
 `--intput`: specify the path to the input color image
 
 `--output`: specify the path to the output grayscale image
